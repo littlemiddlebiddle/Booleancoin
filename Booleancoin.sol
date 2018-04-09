@@ -2,7 +2,7 @@ pragma solidity ^0.4.16;
 
 interface tokenRecipient { function receiveApproval(address _from, uint256 _value, address _token, bytes _extraData) external; }
 
-contract TokenERC20 {
+contract Booleancoin {
     // Public variables of the token
     string public name;
     string public symbol;
@@ -25,7 +25,7 @@ contract TokenERC20 {
      *
      * Initializes contract with initial supply tokens to the creator of the contract
      */
-    function TokenERC20(
+    function Booleancoin (
         uint256 initialSupply,
         string tokenName,
         string tokenSymbol
